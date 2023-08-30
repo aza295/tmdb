@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.logo{
+  font-family: 'Bungee Spice', cursive; 
+  font-size: 80px;
+}
+*{
+    box-sizing: border-box;
+    
+  }
+  
+  .header {
+    background-color: rgb(3, 14, 61);
+  }
+  .name {
+    color: rgb(49, 184, 205);
+  }
+  
+  .block{
+    background-color: rgb(49, 184, 205);
+    padding: 8px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: rgb(49, 184, 205);
+    margin-top: 50px;
+  }
+  .buttn {
+    color: rgb(49, 184, 205);
+    height: 32px;
+    width: 60px;
+    background-color: rgb(49, 184, 205);
+  }
+  .butn {
+    background-color: rgb(3, 14, 61);
+  }
+  
+  .header2 {
+    background-image: url(/tmdb/star.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+  
+  .descr {
+    padding-top: 170px;
+    padding-left: 40px;
+  }
+  
+  .inp {
+    padding-left: 40px;
+  }
+  .batton h4{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 15px;
+  }
+  .batton {
+    width: 125px;
+    height: 60px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(1, 247, 246, 1) 56%,
+      rgba(1, 200, 247, 1) 87%,
+      rgba(29, 166, 194, 1) 100%
+    );
+  }
+  
+  .today:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(1, 247, 246, 1) 56%,
+      rgba(1, 200, 247, 1) 87%,
+      rgba(29, 166, 194, 1) 100%
+    );
+  }
+  
+  .week:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(1, 247, 246, 1) 56%,
+      rgba(1, 200, 247, 1) 87%,
+      rgba(29, 166, 194, 1) 100%
+    );
+  }
+  .over {
+    overflow-x: auto;
+    background-image: url(/tmdb/bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+  .over1 {
+      overflow-x: auto;
+      height: 600px;
+    }
+  .flow {
+      overflow-x: auto;
+      background-image: url(/tmdb/blue_bg.jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+  .desc{
+      background: -webkit-linear-gradient(#b7ff00, #00dee2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  
+  .footer {
+      background-color: rgb(3, 14, 61);
+  }
+  .foot{
+      margin-left: 100px;
+  }
+  
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content a:hover {
+    background-color: gainsboro;
+  
+  }
+

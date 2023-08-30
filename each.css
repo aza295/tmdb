@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.logo{
+  font-family: 'Bungee Spice', cursive; 
+  font-size: 80px;
+}
+
+*{
+    box-sizing: border-box;
+    
+  }
+  
+  .header {
+    background-color: rgb(3, 14, 61);
+  }
+  .butn {
+    background-color: rgb(3, 14, 61);
+  }
+
+
+  .footer {
+      background-color: rgb(3, 14, 61);
+  }
+  .foot{
+      margin-left: 100px;
+  }
+
+  
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content a:hover {
+    background-color: gainsboro;
+  
+  }
+
+  .flow {
+    overflow-x: auto;
+    height: 400px;
+  }
+#info{
+    margin-left: 150px;
+}
+#head1{
+    filter: brightness(50%)
+}
